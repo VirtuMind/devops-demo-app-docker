@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 const FILE = path.join(__dirname, "visits.json");
 
-// Mutex simplee
+// Mutex simpleedd
 let lock = false;
 
 // Lire compteur
