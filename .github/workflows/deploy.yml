@@ -25,7 +25,7 @@ jobs:
 
       - name: Build image
         run: |
-          docker build -t ${{ secrets.ACR_LOGIN_SERVER }}/node-app:latest .
+          docker build -f .dockerfile -t ${{ secrets.ACR_LOGIN_SERVER }}/node-app:latest .
 
       - name: Push image
         run: |
